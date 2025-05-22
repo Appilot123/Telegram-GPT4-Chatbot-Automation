@@ -69,6 +69,22 @@ This project is a full-fledged, AI-powered Telegram chatbot built with Python an
 ## Core Strengths: 
 - **Always-On AI Assistant:** Runs 24/7 on a VPS with minimal resource usage—ideal for continuous engagement or monitoring tasks.
 - **Modular & Expandable:** Easily plug in extra features like news scraping, command handlers, or data pipelines.
-- **Secure & Scalable:** Uses best practices like .env for API key protection and supports multiple bot functionalities in one deployment.
+- **Secure & Scalable:** Uses best practices like `.env` for API key protection and supports multiple bot functionalities in one deployment.
 
 ## Features List:
+| Feature                  | Description                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| Telegram Bot Integration | Instantly connects to any Telegram account via BotFather API key.            |
+| GPT-4 Integration        | AI-generated responses using OpenAI's GPT-4 model with contextual replies.   |
+| VPS Deployment Ready     | Fully deployable on VPS using `screen`, `nohup`, or `systemd` for stability. |
+| Web Scraping Module      | Includes scraping from Hacker News and auto-summarization of content.        |
+| Custom Commands          | Easily create commands like `/news` or `/summary` for interactive features.  |
+| Logging & Debugging      | Includes logging setup for transparency and debugging in production.         |
+| Rate Limiting            | Prevents abuse with character-length checks and simple validation.           |
+| API Key Protection       | Supports secure storage of credentials via `.env` file (dotenv).             |
+| Pythonic Structure       | Written in clean, modular Python with `telegram.ext` handlers.               |
+| Background Execution     | Uses `nohup` or `screen` for background execution without downtime.          |
+
+
+## Key Stats:
+
