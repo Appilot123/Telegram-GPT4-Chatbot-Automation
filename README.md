@@ -1,5 +1,14 @@
 <h1 align="center">Telegram GPT4 Chatbot Automation</h1>
 
+
+## Project Overview:
+This project is a full-fledged, AI-powered Telegram chatbot built with Python and integrated with OpenAI’s GPT-4 API. Designed for 24/7 deployment on a VPS, this bot is ideal for customer engagement, content generation, automation, and even real-time news summarization. The bot is simple to set up, easy to expand, and well-suited for hobbyists, marketers, and automation enthusiasts looking to explore conversational AI within the Telegram ecosystem.
+
+## Core Features: 
+- **Always-On AI Assistant:** Runs 24/7 on a VPS with minimal resource usage—ideal for continuous engagement or monitoring tasks.
+- **Modular & Expandable:** Easily plug in extra features like news scraping, command handlers, or data pipelines.
+- **Secure & Scalable:** Uses best practices like `.env` for API key protection and supports multiple bot functionalities in one deployment.
+
 <div align="center">
   <img
     src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
@@ -63,13 +72,6 @@
 
 <div align="left">
 
-## Project Overview:
-This project is a full-fledged, AI-powered Telegram chatbot built with Python and integrated with OpenAI’s GPT-4 API. Designed for 24/7 deployment on a VPS, this bot is ideal for customer engagement, content generation, automation, and even real-time news summarization. The bot is simple to set up, easy to expand, and well-suited for hobbyists, marketers, and automation enthusiasts looking to explore conversational AI within the Telegram ecosystem.
-
-## Core Strengths: 
-- **Always-On AI Assistant:** Runs 24/7 on a VPS with minimal resource usage—ideal for continuous engagement or monitoring tasks.
-- **Modular & Expandable:** Easily plug in extra features like news scraping, command handlers, or data pipelines.
-- **Secure & Scalable:** Uses best practices like `.env` for API key protection and supports multiple bot functionalities in one deployment.
 
 ## Features List:
 | Feature                  | Description                                                                  |
